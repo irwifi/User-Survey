@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8"http-equiv=Content-Type>
+	<title>User Survey</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href=css/style.css rel=stylesheet>
+</head>
+
+<body>
+	<!-- This script will run only if Javascript is disabled in the browser. It will display the message to enable Javascript. -->
+	<noscript>
+		<div class="noscript">
+			<div class="jumbotron text-center">
+				<h1>Please enable JAVASCRIPT in your browser</h1>
+				<p>This site can not run without Javascript</p>
+			</div>
+
+			<!-- CSS to hide the main container if javascript is not enabled. -->
+			<style>
+				.yesscript {
+					display: none;
+				}
+			</style>
+		</div>
+	</noscript>
+
+	<div class="yesscript">
+		<div class="main_container">
+			<!-- Survey List Page -->
+			<div class = "survery_page">
+				<div class="jumbotron text-center">
+					<h1>User Survey</h1>
+					<p>Select one Survey from the list</p>
+				</div>
+
+				<div class="container">
+					<ul class="survey_list"></ul>
+				</div>
+			</div>
+
+			<!-- Survey Detail Page -->
+			<div class = "survery_questions">
+				<div class="suvery_name">Survey Name</div>
+				<div class="back">Go Back</div>
+
+				<div class="survey_items"></div>
+				<div class="survey_nav">
+				<ul class="pager">
+					<li><a href="#">Previous</a></li>
+					<li><a href="#">Next</a></li>
+				</ul>
+					<div class="submit">Submit Survey</div>
+				</div>
+			</div>
+
+			<!-- Survey Submit Page -->
+			<div class = "survery_complete">
+				<div class="complete">
+					Survey Complete
+					<br />
+					Thanks for answering the survey!
+				</div>
+				<div class="go_back">Go Back</div>
+			</div>
+		</div>
+
+		<script src = "js/main.js"></script>
+	</div>
+</body>
+</html>
