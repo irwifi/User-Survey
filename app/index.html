@@ -35,42 +35,43 @@
 	</noscript>
 
 	<div class="yesscript">
-		<div class="main_container">
+		<div class="container">
 			<!-- Survey List Page -->
-			<div class = "survery_page">
+			<div class = "survey_page">
 				<div class="jumbotron text-center">
 					<h1>User Survey</h1>
 					<p>Select one Survey from the list</p>
 				</div>
 
-				<div class="container">
-					<ul class="survey_list"></ul>
-				</div>
+				<div class="survey_list"></div>
 			</div>
 
 			<!-- Survey Detail Page -->
-			<div class = "survery_questions">
-				<div class="suvery_name">Survey Name</div>
-				<div class="back">Go Back</div>
+			<div class = "survey_questions">
+				<nav class="navbar navbar-inverse">
+					<div class="container-fluid">
+						<div class="navbar-header">Survey Name</div>
+						<ul class="nav navbar-nav navbar-right">
+							<li><button class="go_back btn btn-danger navbar-btn">Go Back</button></li>
+						</ul>
+					</div>
+				</nav>
 
 				<div class="survey_items"></div>
-				<div class="survey_nav">
-				<ul class="pager">
-					<li><a href="#">Previous</a></li>
-					<li><a href="#">Next</a></li>
+				<ul class="survey_nav pager">
+					<!-- <li class="previous"><a href="#">Previous</a></li> -->
+					<li class="next"><a href="#">Next</a></li>
+					<li class="submit"><button type="button" class="btn btn-success btn-lg">Submit</button></li>
 				</ul>
-					<div class="submit">Submit Survey</div>
-				</div>
 			</div>
 
 			<!-- Survey Submit Page -->
-			<div class = "survery_complete">
-				<div class="complete">
-					Survey Complete
-					<br />
-					Thanks for answering the survey!
+			<div class = "survey_complete">
+				<div class="panel panel-default">
+					<div class="panel-heading">Survey Complete</div>
+					<div class="panel-body">Thanks for answering the survey!</div>
+					<button type="button" class="go_back btn btn-info">Go Back</button>
 				</div>
-				<div class="go_back">Go Back</div>
 			</div>
 		</div>
 

@@ -1,0 +1,91 @@
+/* Survey List >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+	.survey_list .well {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		font-size: 2em;
+		width: 30em;
+		cursor: pointer;
+		transition: transform .2s ease-in-out;
+	}
+
+	.survey_list .well:hover {
+		background: #c9ffcc;
+		transform: scale(1.1);
+	}
+/* Survey List --------------------------------------------------------------*/
+
+/* Survey Detail >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+	.survey_questions {
+		display: none;
+	}
+
+	.survey_questions .navbar {
+		color: #DDD;
+		height: 80px;
+	}
+
+	.navbar .container-fluid {
+		height: 100%;
+		font-size: 30px;
+		line-height: 80px;
+	}
+
+	.survey_questions .navbar-right {
+		margin-right: 1px;
+	}
+
+	.survey_items .questions {
+		display: none;
+		margin-top: 5%;
+		margin-left: 20%;
+	}
+
+	.questions .title {
+		font-size: 3em;
+	}
+
+	.questions .option_list {
+		margin-left: 20px;
+		font-size: 1.2em;
+	}
+
+	.questions .list-group-item {
+		width: 600px;
+		margin-bottom: 2px;
+		cursor: pointer;
+	}
+
+	.questions .list-group-item:hover {
+		background: #EEE;
+	}
+
+	.questions .list-group-item.active:hover {
+		background: #337ab7;
+	}
+
+	.survey_questions .survey_nav {
+		display: none;
+		text-align: center;
+		width: 50%;
+	}
+
+	.survey_questions .submit {
+		display: none;
+		text-align: center;
+	}
+/* Survey Detail --------------------------------------------------------------*/
+
+/* Survey Complete >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+	.survey_complete {
+		display: none;
+		margin:  0 auto;
+		margin-top: 100px;
+		text-align: center;
+		width: 400px;
+	}
+
+	.survey_complete .panel {
+		padding-bottom: 20px;
+	}
+/* Survey Complete ------------------------------------------------------------*/
